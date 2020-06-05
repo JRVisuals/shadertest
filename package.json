@@ -1,0 +1,18 @@
+{
+  "name": "shadertest",
+  "version": "1.0.0",
+  "description": "simple shader test",
+  "main": "index.js",
+  "author": "Jose R. Rodriguez",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "rollup": "^2.13.1",
+    "rollup-plugin-html2": "^1.1.0",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-serve": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "rollup -c --watch"
+  }
+}
